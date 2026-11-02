@@ -1,0 +1,4 @@
+User-agent: *
+allow: /
+
+Sitemap: https://refentsemogotsi802-lang.github.io/Fresh-Bakes-Bakery/sitemap.xml
