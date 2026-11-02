@@ -4,8 +4,6 @@ const reviewMessage = document.getElementById("reviewMessage");
 const reviewList = document.getElementById("reviewList");
 const errorMsg = document.getElementById("reviewError");
 
-alert("contact.js is connected");
-
 reviewForm.addEventListener("submit", function(event) {
     event.preventDefault();
 
