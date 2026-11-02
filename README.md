@@ -6,33 +6,33 @@ The website provides information about the bakery, displays its products and all
 vsitors to contact the bakery, submit enquiries and share feedback.
 
 ## Project objectives
-To create a professional online presence for Fresh Bakes Bakery.
-To display bakery products.
-To provide visitors with information about the bakery.
-To apply SEO techniques to help search engines understand the website.
+1. To create a professional online presence for Fresh Bakes Bakery.
+2. To display bakery products.
+3. To provide visitors with information about the bakery.
+4. To apply SEO techniques to help search engines understand the website.
 
 ## Technologies used
-HTML5
-CSS3
-JavaScript
-Visual Studio Code
-Microsoft Edge
+1. HTML5
+2. CSS3
+3. JavaScript
+4. Visual Studio Code
+5. Microsoft Edge
 
 ## SEO (Search Engine Optimisation)
 SEO is a process of improving a website so that search engines can understand its content
 and display it in relevant search results.
 
 Advantages of SEO 
-Can improve website visibilty in search results.
-Can help attract visitors searching for bakery products.
-Helps search engines understand the website.
-May attract unpaid traffic to the website.
+1. Can improve website visibilty in search results.
+2. Can help attract visitors searching for bakery products.
+3. Helps search engines understand the website.
+4. May attract unpaid traffic to the website.
 
 ## Disadvantages of SEO
-Results may take time
-Search rankings are not guranteed.
-SEO requires regular maintenance.
-Other bakeries may compete for similar search terms.
+1. Results may take time
+2. Search rankings are not guranteed.
+3. SEO requires regular maintenance.
+4. Other bakeries may compete for similar search terms.
 
 
 
