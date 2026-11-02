@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: brown;
+
+    background-image:linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url("images/bakery.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    color: brown;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-bottom: 0.6rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 12px gray;
+}
+
+header img {
+    width: 180px;
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 3px 10px gray;
+}
+
+nav a {
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.7rem 1.3rem;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background-color: beige;
+    color: brown;
+    transform: translateY(-3);
+}
+
+nav a:focus {
+    outline: 3px solid beige;
+    outline-offset: 2px;
+}
+
+nav a:active {
+    background-color: black;
+    color: white;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+section {
+    background-color: white;
+    padding: 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px gray;
+}
+
+/* Product layout*/ 
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.product> div {
+    flex: 1 1 250px;
+    background-color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px gray;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product> div:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px gray;
+}
+
+/* images */
+.product img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.product h3 {
+    color: brown;
+}
+
+.product p {
+    color: brown;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px gray;
+    transition: 0.3s ease;
+}
+ 
+/* HOVER */
+button:hover {
+    background-color: black;
+    transform: translateY(-2px);
+}
+
+/* ACTIVE */
+button:active {
+    transform: scale(0.98);
+}
+
+/* FOCUS */
+button:focus {
+    outline: 3px solid beige;
+    outline-offset: 2px;
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    color: black;
+}
+
+form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid brown;
+    box-shadow: 0 5px 15px gray;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid brown;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid brown;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-links a {
+    background-color: white;
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.6rem 1.2rem;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: beige;
+    color: brown;
+    transform: translateY(-3px);
+}
+
+.social-links a:focus {
+    background-color: beige;
+    color: brown;
+    outline-offset: 2px;
+
+#customerReviews {
+    background-color: cream;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+#reviewForm label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#reviewForm input[type="text"],
+#reviewForm textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid brown;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.rating-stars {
+    display: flex;
+    gap: 5px;
+    margin: 10px 0 20px;
+}
+
+.rating-stars input {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+
+.rating-stars label {
+    font-size: 32px;
+    color: gray;
+    cursor: pointer;
+}
+
+.rating-stars label:hover,
+.rating-stars label:has(~ input:checked) {
+    color: orange;
+}
+
+#reviewForm button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reviewList article {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 4px solid brown;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 900px) {
+    main {
+        width: 92%;
+    }
+
+    nav {
+        gap: 0.5rem;
+    }
+
+    nav a {
+        padding: 0.6rem 1 rem;
+    }
+
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    .product {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    body{
+        font-size: 0.95rem;
+    }
+
+    header {
+        padding: 1.5rem 1rem;
+    }
+
+    header img {
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    nav a {
+        width: 90%;
+        text-align: center;
+    }
+
+    main {
+        width: 94%;
+        padding: 1.5rem 0;
+    }
+
+    section {
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .product {
+        flex-direction: column;
+    }
+
+    .product> div {
+        width: 100%;
+    }
+
+    .product img {
+        max-width: 100%;
+    }
+
+    form {
+        padding: 1.5rem;
+    }
+    
+}
+
+
+
+
+    
+

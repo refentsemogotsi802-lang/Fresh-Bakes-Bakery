@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make an Enquiry | Fresh Bakes Bakery</title>
+    <meta name="description" content="Send an enquiry to Fresh Bakes Bakery about our freshly baked products,
+    special occasions or bakery services.">
+    <meta name="keywords" content="bakery enquiry, cake enquiry, Fresh Bakes Bakery, bakery services">
+    <meta name="author" content="Fresh Bakes Bakery">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <img src="images/logo.jpg.png" alt="Fresh Bakes Bakery Logo">
+        <h1>Fresh Bakes Bakery</h1>
+        <p>Let us help you with your bakery enquiries</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+        <a href="enquiry.html">Enquiries</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Make an Enquiry</h2>
+
+            <p>
+                Would you like to know more about our products?
+                Complete the form below to enquire about prices, product availability or special orders.
+            </p>
+
+            <form id="enquiryForm" action="#" method="post" novalidate>
+
+                <label for="customerName">Full Name:</label>
+                <input type="text" id="customerName" name="customerName" required minlength="2">
+
+                <label for="customerEmail">Email Address:</label>
+                <input type="email" id="customerEmail" name="customerEmail" required>
+
+                <label for="enquiryType">Type of Enquiry:</label>
+                <select id="enquiryType" name="enquiryType" required>
+                    <option value="">Select an option</option>
+                    <option value="product">Product Information</option>
+                    <option value="price">Prices</option>
+                    <option value="availability">Availability</option>
+                    <option value="special-order">Special Order</option>
+                </select>
+
+                <label for="productName">Product Name:</label>
+                <input type="text" id="productName" name="productName" required>
+
+                <label for="quantity">Quantity (if applicable):</label>
+                <input type="number" id="quantity" name="quantity" min="1">
+
+                <label for="requiredDate">Required Date(if applicable):</label>
+                <input type="date" id="requiredDate" name="requiredDate">
+
+                <label for="enquiryMessage">Your Enquiry:</label>
+                <textarea id="enquiryMessage" name="enquiryMessage" rows="5" minlength="10"
+                 required placeholder="Tell us what you would like to know..."></textarea>
+
+                 <p id="enquiryFeedback" aria-live="polite"></p>
+
+                 <button type="submit">Submit Enquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fresh Bakes Bakery. All rights reserved.</p>
+    </footer>
+
+    <script src="./enquiry.js"></script>
+</body>
+</html>
