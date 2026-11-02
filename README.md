@@ -51,4 +51,8 @@ Advantages of SEO
 
  ![Mobile view](screenshots/mobile.png)
 
+- Fixed 404 - deployed site via GitHub Pages main branch
+- Added separate JS files
+- Added dynamic filtering for products
+- Added SEO files: robots.txt and sitemap.xml
 
